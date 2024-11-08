@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Md Kishor Morol
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+#name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Md Kishor
+last_name: Morol
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🧑‍💻
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +20,165 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Adjunct Faculty || GenAI Practitioner
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: St. Thomas University
+    url: https://www.stu.edu
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:kishoremorol@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://twitter.com/kishormorol
+ # - icon: brands/instagram
+  #  url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/kishormorol
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/kishormorol
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?hl=en&user=pjn3jg4AAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-4468-8260
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Large Language Models (LLMs)
+  - Multimodal NLP 
+  - NLP for Social Good
+  - Machine Learning Interpretability
+  - Human AI Interaction
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: MSc in Computer Science
+    institution: American International University-Bangladesh
+    date_start: 2017-05-01
+    date_end: 2018-12-31
+    summary: |2-
+      - Conducted research on ML and NLP applications, publishing papers in IEEE and Springer conferences/journals.
+      - Courses included:
+        - Advanced Natural Language Processing 
+        - Human Computer Inteaction 
+  - area: BSc in Computer Science
+    institution: American International University-Bangladesh
+    date_start: 2013-01-01
+    date_end: 2016-12-31
+    summary: |2-
+      - Team lead of ACM International Collegiate Programming Contest (ICPC) from AIUB
+      - Courses included:
+        - Data Structure & Algorithms
+        - Artificial Intelligence & Expert Systems
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Adjunct Faculty
+    company_name: St. Thomas University, Miami, FL
+    company_url: https://www.stu.edu
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-01-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Taught Courses: COP 1800: Intro to Programming with Java, CGS 1060: Microcomputer Applications
+      - Taught algorithms to CS students to solve computational problems so that they can participate in ACM ICPC.
+  - position: Machine Learning Engineer
+    company_name: Deloitte
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-11-01
+    date_end: ''
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Developed an Automated Banking Audit and Mortgage Approval system with LLMs, reducing validation times by 50% and improving accuracy by 20%.
+      - Built a Multimodal Intelligent chatbot integrating GPT-4, ResNet, and BERT with RLHF for improved customer support.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Languages
     items:
       - name: Python
-        description: ''
+        percent: 90
+      - name: Java
         percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
+      - name: C++
+        percent: 90
+      - name: Java Script
+        percent: 90
+  - name: Frameworks
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: PyTorch
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: TensorFlow
         description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        percent: 60
+       # icon: person-simple-walk
+      - name: HuggingFace 
+        description: ''
+        percent: 75
+      #  icon: cat
+      - name: Captum.ai
         description: ''
         percent: 80
-        icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+      #  icon: camera
+  - name: Cloud & MLOps
+    items:
+      - name: AWS & Azure
+        percent: 80
+      - name: Docker & Kubernetes
+        percent: 75
+      - name: LangChain
+        percent: 70
+      - name: LlamaIndex
+        percent: 70
+#languages:
+ # - name: English
+#   percent: 100
+ # - name: Bengali 
+#    percent: 100
+ # - name: Spanish
+ #   percent: 25#
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
+  - title: Introduction to Generative AI Learning Path Specialization
+    url: https://www.coursera.org/specializations/introduction-to-generative-ai
+    certificate_url: https://www.coursera.org/specializations/introduction-to-generative-ai
+    date: '2024-06-01'
+    awarder: Google Cloud
+    icon: coursera
+
+    summary: |
+      - Master the fundamentals of Generative AI and its transformative impact on modern technology 
+      - Learn practical applications of Generative AI in industries such as content creation, healthcare, and customer service.
+      - Explore how models like GPT and DALL·E create text and images, diving into the mechanics behind these innovations.
+  - title: Natural Language Processing Specialization 
+    url: https://www.coursera.org/specializations/natural-language-processing
+    date: '2021-07-01'
+    awarder: DeepLearning.Ai
+    icon: coursera
+    summary: |
+      - Develop a deep understanding of the core concepts of Natural Language Processing (NLP), including text classification, sentiment analysis, and language modeling.
+      - Learn to implement advanced techniques such as word embeddings, transformers, and sequence-to-sequence models for tasks like translation and summarization.
+  - title: Deep Learning Specialization
+    url: https://www.deeplearning.ai/courses/deep-learning-specialization/
+    certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/9B2FG5W2J66U
+    date: '2020-01-01'
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      - Build a strong foundation in Deep Learning, covering neural networks, convolutional networks, recurrent networks, and their applications.
+      - Master key techniques such as optimization algorithms, regularization methods, and hyperparameter tuning to improve model performance.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Md Kishor Morol is an Adjunct Faculty member at **St. Thomas University**, Miami, FL, and a Machine Learning Engineer at **Deloitte**, specializing in building advanced AI solutions like Generative AI (GenAI) and Explainable AI (xAI). With over 8 years of academic and industry experience, he leads **ELITE Lab** ([elitelab.ai](https://elitelab.ai/)), focusing on cutting-edge NLP and ML research with real-world applications.
