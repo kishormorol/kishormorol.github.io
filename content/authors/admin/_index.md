@@ -68,7 +68,7 @@ education:
     date_start: 2013-01-01
     date_end: 2016-12-31
     summary: |2-
-      - Team lead of ACM International Collegiate Programming Contest (ICPC) from AIUB
+      - Team lead of ACM International Collegiate Programming Contest (ICPC), AIUB
       - Courses included:
         - Data Structure & Algorithms
         - Artificial Intelligence & Expert Systems
