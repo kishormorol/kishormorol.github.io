@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I’m a passionate AI researcher and educator with over 5 years of academic experience and 4+ years in developing cutting-edge machine learning systems.
+        I’m a passionate AI researcher and educator with over 5 years of academic experience and more than 4 years in developing cutting-edge machine learning systems.
         
         My work revolves around advancing Large Language Models (LLMs), multimodal NLP, and machine learning explainability and interpretability create intelligent, responsible AI systems.
 
