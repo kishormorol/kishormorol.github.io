@@ -1,13 +1,13 @@
 ---
-title: Pandas
+title: ExplainBot
 date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+external_link: https://elitelab.ai/our-projects/#See%20Project
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - NLP
+  - LLMs
+  - xAI
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+An AI-powered chatbot that delivers clear, understandable responses and explanations for complex queries, combining the strengths of NLP and XAI to enhance user interaction.
 
 <!--more-->
