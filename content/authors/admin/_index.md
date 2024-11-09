@@ -181,4 +181,4 @@ awards:
 
 ## About Me
 
-Md Kishor Morol is an Adjunct Faculty member at **St. Thomas University**, Miami, FL, and a Machine Learning Engineer at **Deloitte**, specializing in building advanced AI solutions like Generative AI (GenAI) and Explainable AI (xAI). With over 8 years of academic and industry experience, he leads **ELITE Lab** ([elitelab.ai](https://elitelab.ai/)), focusing on cutting-edge NLP and ML research with real-world applications.
+Md Kishor Morol is an Adjunct Faculty member at [St. Thomas University](https://stu.edu/), Miami, FL, and a Machine Learning Engineer at [Deloitte](https://www2.deloitte.com/us/en.html), specializing in building advanced AI solutions like Generative AI (GenAI) and Explainable AI (xAI). With over 8 years of academic and industry experience, he leads [ELITE Lab] ([elitelab.ai](https://elitelab.ai/), focusing on cutting-edge NLP and ML research with real-world applications.
