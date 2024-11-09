@@ -1,140 +1,81 @@
 ---
-title: Learn Python
-summary: Easily learn Python in 10 minutes!
-date: 2023-10-24
+title: Programming in Python
+summary: CSC 4162: Programming in Python
+date: 2022-08-01
 type: docs
 math: false
 tags:
-  - Python
+  - python
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: ''
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+**Python programming with a comprehensive curriculum!**
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
+American International University-Bangladesh (AIUB) offers **CSC 4162: Programming in Python**, a course designed to equip students with the skills to develop applications ranging from small scripts to large systems. The course emphasizes best practices such as version control, unit testing, and recommended coding styles and idioms. Students will explore Python's extensive standard library and its applications in various domains. :contentReference[oaicite:0]{index=0}
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+## Course Outline
 
-## Video
+### **1. Introduction to Python**
+- Overview of Python programming language.
+- Setting up the development environment.
+- Writing and executing basic Python scripts.
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+### **2. Python Basics**
+- Variables, data types, and operators.
+- Control structures: conditionals and loops.
+- Functions and modules.
 
-{{< youtube D2vj0WcvH5c >}}
+### **3. Data Structures**
+- Lists, tuples, and dictionaries.
+- Sets and their operations.
+- Comprehensions and generators.
 
-**Youtube**:
+### **4. File Handling**
+- Reading from and writing to files.
+- Working with different file formats.
+- Exception handling during file operations.
 
-    {{</* youtube w7Ft2ymGmfc */>}}
+### **5. Object-Oriented Programming (OOP) in Python**
+- Classes and objects.
+- Inheritance, polymorphism, and encapsulation.
+- Magic methods and operator overloading.
 
-**Bilibili**:
+### **6. Modules and Packages**
+- Importing and using standard libraries.
+- Creating and managing custom modules.
+- Understanding package structures.
 
-    {{</* bilibili id="BV1WV4y1r7DF" */>}}
+### **7. Error and Exception Handling**
+- Handling exceptions using try-except blocks.
+- Creating custom exceptions.
+- Debugging techniques and tools.
 
-**Video file**
+### **8. Testing and Debugging**
+- Writing unit tests using frameworks like `unittest`.
+- Test-driven development practices.
+- Debugging tools and best practices.
 
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
+### **9. Working with Databases**
+- Connecting to databases using libraries like `sqlite3`.
+- Performing CRUD operations.
+- Using Object-Relational Mappers (ORMs).
 
-    {{</* video src="my_video.mp4" controls="yes" */>}}
+### **10. Web Development with Python**
+- Introduction to web frameworks like Flask or Django.
+- Building simple web applications.
+- Handling HTTP requests and responses.
 
-## Podcast
+### **11. Networking and Multithreading**
+- Socket programming basics.
+- Creating client-server applications.
+- Understanding multithreading and multiprocessing.
 
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
+### **12. Advanced Topics**
+- Introduction to data analysis with libraries like `numpy` and `pandas`.
+- Basics of machine learning with `scikit-learn`.
+- Exploring Python's role in automation and scripting.
 
-    {{</* audio src="ambient-piano.mp3" */>}}
-
-Try it out:
-
-{{< audio src="ambient-piano.mp3" >}}
-
-## Test students
-
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
-
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
-```
-
-renders as
-
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
-
-## Math
-
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.yaml` file.
-
-To render _inline_ or _block_ math, wrap your LaTeX math with `{{</* math */>}}$...${{</* /math */>}}` or `{{</* math */>}}$$...$${{</* /math */>}}`, respectively.
-
-{{% callout note %}}
-We wrap the LaTeX math in the Hugo Blox _math_ shortcode to prevent Hugo rendering our math as Markdown.
-{{% /callout %}}
-
-Example **math block**:
-
-```latex
-{{</* math */>}}
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-{{< /math >}}
-
-Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
-
-Example **multi-line math** using the math linebreak (`\\`):
-
-```latex
-{{</* math */>}}
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
-
-{{< /math >}}
-
-## Code
-
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
-
-
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
-
-renders as
-
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
-
-## Inline Images
-
-```go
-{{</* icon name="python" */>}} Python
-```
-
-renders as
-
-{{< icon name="python" >}} Python
+---
 
 ## Did you find this page helpful? Consider sharing it 🙌
