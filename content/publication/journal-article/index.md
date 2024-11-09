@@ -1,12 +1,18 @@
 ---
-title: "An example journal article"
+title: "The Generative AI Landscape in Education: Mapping the Terrain of Opportunities, Challenges and Student Perception"
 authors:
+- Zishan Ahmed
+- Shakib Sadat Shanto
+- Most Humayra Khanom Rime
 - admin
-- Robert Ford
+- Nafiz Fahad
+- Md Jakir Hossen
+- Md Abdullah-Al-Jubair
+
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- ""
+- ""
+date: "2024-09-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -18,23 +24,24 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "IEEE Access"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Generative AI (GAI) technologies like ChatGPT are permanently changing academic education. Their integration opens up vast opportunities for bespoke learning and better student interaction but also brings about academic honesty issues and the application of real-life educators. This study aims to fill the literature gap regarding the use of multiple GAI tools and their effect on academic outcomes via a comprehensive review. A systematic literature review was performed following PRISMA guidelines to synthesize results on the potential and drawbacks of GAI in educational domains. We included theoretical and empirical papers that used qualitative, quantitative, or mixed-methods study designs. We have also explored conceptual frameworks and the most creative AI applications with a special emphasis on uniqueness and practicability. Experiences, and Perceptions Concerning To compile the information needed we gathered insights into what students were going through by conducting the survey which contains 200 respondents of undergraduate university students gathering insights into the college students’ experiences and perceptions related to GAI used for educational purposes. At the basic level, GAI comprises areas like personalization, task automation, teacher assistance, and efficiency among others, and respective solutions for the immersion of a learner in learning processes to reform directions. However, it generates plenty of challenges such as the question of assessment integrity, the risk that too much automated grading could overwhelm educational value, and relevantly the veracity of AI-generated content as well as the potential disruption to skills like critical thinking, in addition to data privacy and ethical issues. Student Perception Survey the text also indicates that most students, as per the student perception survey found AI systems useful in academic support. However, they also know the other side of the coin and are very familiar with the technology constraints and challenges.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This study explores the impact of Generative AI on academic education, emphasizing its potential for personalized learning and efficiency. It also addresses challenges such as academic integrity, critical thinking, and ethical considerations.
+
 
 tags:
-- Source Themes
+- GenAI
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://ieeexplore.ieee.org/abstract/document/10681094
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -45,7 +52,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -63,13 +70,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
