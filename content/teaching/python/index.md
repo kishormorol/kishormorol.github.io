@@ -1,19 +1,18 @@
 ---
 title: Programming in Python
 summary: CSC 4162: Programming in Python
-date: 2022-08-01
+date: 2023-08-01
 type: docs
 math: false
 tags:
-  - python
+  - Python
 image:
   caption: ''
 ---
 
-**Python programming with a comprehensive curriculum!**
+**Master Python programming with a comprehensive curriculum!**
 
-American International University-Bangladesh (AIUB) offers **CSC 4162: Programming in Python**, a course designed to equip students with the skills to develop applications ranging from small scripts to large systems. The course emphasizes best practices such as version control, unit testing, and recommended coding styles and idioms. Students will explore Python's extensive standard library and its applications in various domains. :contentReference[oaicite:0]{index=0}
-
+American International University-Bangladesh (AIUB) offers **CSC 4162: Programming in Python**, a course designed to equip students with the skills to develop applications ranging from small scripts to large systems. The course emphasizes best practices such as version control, unit testing, and recommended coding styles and idioms. Students will explore Python's extensive standard library and its applications in various domains.
 ## Course Outline
 
 ### **1. Introduction to Python**
@@ -72,7 +71,7 @@ American International University-Bangladesh (AIUB) offers **CSC 4162: Programmi
 - Understanding multithreading and multiprocessing.
 
 ### **12. Advanced Topics**
-- Introduction to data analysis with libraries like `numpy` and `pandas`.
+- Introduction to data analysis with libraries like `pandas`.
 - Basics of machine learning with `scikit-learn`.
 - Exploring Python's role in automation and scripting.
 
