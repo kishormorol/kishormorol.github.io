@@ -1,7 +1,7 @@
 ---
 title: VisionX
 date: 2023-10-26
-external_link: https://github.com/scikit-learn/scikit-learn
+external_link: https://elitelab.ai/our-projects/#See%20Project
 tags:
   - CV
   - xAI
