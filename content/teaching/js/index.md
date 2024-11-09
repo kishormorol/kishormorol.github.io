@@ -1,24 +1,28 @@
 ---
-title: Learn JavaScript
-summary: Easily learn JavaScript in 10 minutes!
-date: 2023-10-24
+title: Programming in Java
+summary: COP 1800 Intro to Programming with Java
+date: 2024-08-16
 type: docs
 math: false
 tags:
-  - JavaScript
+  - java
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: ''
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+**Learn Java programming with an interactive approach!**  
+[St. Thomas University](https://stu.edu) offers **COP 1800 Intro to Programming with Java**, an engaging course designed to introduce students to the fundamentals of Java programming. This course uses interactive content from [zyBooks](https://www.zybooks.com/catalog/programming-in-java/) to enhance your learning experience. 
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+Explore videos, podcasts, code examples, and assessments to build your foundational programming skills.
+
+## Interactive Course Features
+
+This course incorporates various interactive elements, including:
 
 ## Video
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+Learn Java concepts through engaging video tutorials. For example, you can include videos like this one:
 
 {{< youtube D2vj0WcvH5c >}}
 
