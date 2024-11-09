@@ -136,13 +136,13 @@ skills:
         percent: 70
       - name: LlamaIndex
         percent: 70
-Natural languages:
+languages:
   - name: English
     percent: 100
   - name: Bengali 
     percent: 100
   - name: Spanish
-    percent: 25#
+    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
