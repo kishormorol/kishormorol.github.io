@@ -2,6 +2,7 @@
 title: HoloInteract
 date: 2023-10-26
 external_link: https://elitelab.ai/our-projects/#See%20Project
+tags:
   - HCI
   - LLMs
   - VR
