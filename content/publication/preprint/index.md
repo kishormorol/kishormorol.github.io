@@ -35,12 +35,12 @@ links:
   url: ''
 url_pdf: https://www.researchgate.net/publication/385682621_The_Next_Chapter_in_Wound_Analysis_Introducing_a_Hybrid_Model_for_Improved_Segmentation_With_the_help_of_Deep_Convolutional_Neural_Network
 url_code: ''
-url_dataset: '#'
-url_poster: '#'
+url_dataset: ''
+url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
