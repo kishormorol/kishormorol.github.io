@@ -1,6 +1,6 @@
 ---
 title: VisionX
-date: 2023-10-26
+date: 2024-11-01
 external_link: https://elitelab.ai/our-projects/#See%20Project
 tags:
   - CV

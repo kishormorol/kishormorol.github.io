@@ -1,6 +1,6 @@
 ---
 title: ExplainBot
-date: 2023-10-26
+date: 2024-06-01
 external_link: https://elitelab.ai/our-projects/#See%20Project
 tags:
   - NLP
