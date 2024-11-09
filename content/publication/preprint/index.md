@@ -1,8 +1,10 @@
 ---
-title: "An example preprint / working paper"
+title: "The Next Chapter in Wound Analysis: Introducing a Hybrid Model for Improved Segmentation With the help of Deep Convolutional Neural Network"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+- Nafiz Fahad
+- Abdullah Al Juabir
+date: "2024-11-07T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -17,21 +19,22 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Advancements in wound healing and chronic wound analysis have highlighted key challenges in managing non-healing wounds, often linked to conditions such as diabetes, vascular deficiencies, hypertension, and chronic kidney disease. Non-healing wounds are marked by bacterial imbalances, disrupted growth factors, and heightened inflammatory responses that lead to tissue degradation rather than repair. Effective wound segmentation is essential for monitoring and promoting healing, and current methods range from traditional image processing techniques relying on handcrafted features to deep learning approaches that extract features autonomously. In this study, we propose a hybrid convolutional model combining VGG19, U-Net, and EfficientNet to achieve high accuracy in wound area segmentation. Utilizing a dataset of 2,000 foot ulcer images, we trained and evaluated the model, demonstrating its superior performance through extensive experiments and analysis compared to existing segmentation techniques.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This study introduces a hybrid convolutional model combining VGG19, U-Net, and EfficientNet for accurate wound segmentation, addressing challenges in non-healing wound management. Trained on 2,000 foot ulcer images, the model outperforms existing methods in precision and effectiveness.
+
 
 tags:
-- Large Language Models
+- CV
 
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+- name: ''
+  url: ''
+url_pdf: https://www.researchgate.net/publication/385682621_The_Next_Chapter_in_Wound_Analysis_Introducing_a_Hybrid_Model_for_Improved_Segmentation_With_the_help_of_Deep_Convolutional_Neural_Network
+url_code: ''
 url_dataset: '#'
 url_poster: '#'
 url_project: ''
@@ -42,7 +45,7 @@ url_video: '#'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -61,11 +64,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
-This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
