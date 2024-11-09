@@ -37,7 +37,6 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 
 tags:
   - CVPR
-  - NLP
 
 # Display this page in the Featured widget?
 featured: true
