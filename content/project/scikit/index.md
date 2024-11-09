@@ -1,13 +1,14 @@
 ---
-title: scikit-learn
+title: VisionX
 date: 2023-10-26
 external_link: https://github.com/scikit-learn/scikit-learn
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - CV
+  - xAI
+  - NLP
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+A computer vision system that detects and classifies objects in real-time, optimized for healthcare and autonomous navigation, leveraging Explainable AI to interpret visual data.
+
 
 <!--more-->

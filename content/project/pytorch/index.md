@@ -1,8 +1,7 @@
 ---
 title: HoloInteract
 date: 2023-10-26
-external_link: https://github.com/pytorch/pytorch
-tags:
+external_link: https://elitelab.ai/our-projects/#See%20Project
   - HCI
   - LLMs
   - VR
