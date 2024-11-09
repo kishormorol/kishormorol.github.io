@@ -11,134 +11,96 @@ image:
 ---
 
 **Learn Java programming with an interactive approach!**  
-[St. Thomas University](https://stu.edu) offers **COP 1800 Intro to Programming with Java**, an engaging course designed to introduce students to the fundamentals of Java programming. This course uses interactive content from [zyBooks](https://www.zybooks.com/catalog/programming-in-java/) to enhance your learning experience. 
 
+[St. Thomas University](https://stu.edu) offers **COP 1800 Intro to Programming with Java**, an engaging course designed to introduce students to the fundamentals of Java programming. This course utilizes interactive content from [zyBooks](https://www.zybooks.com/catalog/programming-in-java/) to enhance your learning experience.
 
-Explore videos, podcasts, code examples, and assessments to build your foundational programming skills.
+## Interactive Course Outline
 
-## Interactive Course Features
+### **1. Introduction to Java**
+- Overview of programming concepts.
+- Setting up the development environment.
+- Writing your first Java program.
 
-This course incorporates various interactive elements, including:
+### **2. Variables and Assignments**
+- Understanding variables and data types.
+- Performing arithmetic operations.
+- Utilizing constants and type conversions.
 
-## Video
+### **3. Branches**
+- Implementing conditional statements.
+- Using logical operators.
+- Managing complex decision-making processes.
 
-Learn Java concepts through engaging video tutorials. For example, you can include videos like this one:
+### **4. Loops**
+- Constructing while and for loops.
+- Handling nested loops.
+- Applying loops for data processing.
 
-{{< youtube D2vj0WcvH5c >}}
+### **5. Arrays**
+- Declaring and initializing arrays.
+- Iterating through arrays.
+- Working with multidimensional arrays.
 
-**Youtube**:
+### **6. User-Defined Methods**
+- Defining and invoking methods.
+- Understanding parameter passing.
+- Implementing method overloading.
 
-    {{</* youtube w7Ft2ymGmfc */>}}
+### **7. Objects and Classes**
+- Exploring object-oriented programming principles.
+- Creating classes and objects.
+- Utilizing constructors and access modifiers.
 
-**Bilibili**:
+### **8. Memory Management**
+- Understanding memory allocation.
+- Managing references and garbage collection.
+- Exploring stack and heap memory.
 
-    {{</* bilibili id="BV1WV4y1r7DF" */>}}
+### **9. Input and Output**
+- Handling input and output streams.
+- Reading from and writing to files.
+- Formatting output data.
 
-**Video file**
+### **10. Inheritance**
+- Implementing class inheritance.
+- Overriding methods.
+- Utilizing polymorphism.
 
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
+### **11. Recursion**
+- Understanding recursive methods.
+- Solving problems using recursion.
+- Analyzing recursion performance.
 
-    {{</* video src="my_video.mp4" controls="yes" */>}}
+### **12. Exceptions**
+- Handling exceptions and errors.
+- Implementing try-catch blocks.
+- Creating custom exceptions.
 
-## Podcast
+### **13. Generics**
+- Utilizing generic classes and methods.
+- Understanding type parameters.
+- Applying generics for type safety.
 
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
+### **14. Collections**
+- Exploring collection frameworks.
+- Working with lists, sets, and maps.
+- Iterating over collections.
 
-    {{</* audio src="ambient-piano.mp3" */>}}
+### **15. Graphical User Interfaces (GUIs)**
+- Building basic GUIs with JavaFX.
+- Handling user events.
+- Designing interactive applications.
 
-Try it out:
+### **16. Algorithms and Data Structures**
+- Implementing searching and sorting algorithms.
+- Understanding algorithm complexity.
+- Exploring common data structures.
 
-{{< audio src="ambient-piano.mp3" >}}
+### **17. Advanced Topics**
+- Multithreading and concurrency.
+- Networking and socket programming.
+- Accessing databases with JDBC.
 
-## Test students
-
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
-
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
-```
-
-renders as
-
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
-
-## Math
-
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.yaml` file.
-
-To render _inline_ or _block_ math, wrap your LaTeX math with `{{</* math */>}}$...${{</* /math */>}}` or `{{</* math */>}}$$...$${{</* /math */>}}`, respectively.
-
-{{% callout note %}}
-We wrap the LaTeX math in the Hugo Blox _math_ shortcode to prevent Hugo rendering our math as Markdown.
-{{% /callout %}}
-
-Example **math block**:
-
-```latex
-{{</* math */>}}
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-{{< /math >}}
-
-Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
-
-Example **multi-line math** using the math linebreak (`\\`):
-
-```latex
-{{</* math */>}}
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
-
-{{< /math >}}
-
-## Code
-
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
-
-
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
-
-renders as
-
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
-
-## Inline Images
-
-```go
-{{</* icon name="python" */>}} Python
-```
-
-renders as
-
-{{< icon name="python" >}} Python
+---
 
 ## Did you find this page helpful? Consider sharing it 🙌
