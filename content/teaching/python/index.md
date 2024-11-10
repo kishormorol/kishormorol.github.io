@@ -12,7 +12,7 @@ image:
 
 **Python programming with a comprehensive curriculum!**
 
-[American International University-Bangladesh](www.aiub.edu) offers **CSC 4162: Programming in Python**, a course designed to equip students with the skills to develop applications ranging from small scripts to large systems. Students will explore Python's extensive standard library and its applications in various domains.
+[American International University-Bangladesh](https://www.aiub.edu/) offers **CSC 4162: Programming in Python**, a course designed to equip students with the skills to develop applications ranging from small scripts to large systems. Students will explore Python's extensive standard library and its applications in various domains.
 
 
 ## Course Outline
