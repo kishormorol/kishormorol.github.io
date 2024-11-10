@@ -73,7 +73,7 @@ image:
 - Understanding multithreading and multiprocessing.
 
 ### **12. Advanced Topics**
-- Introduction to data analysis with libraries like `pandas`.
+- Introduction to data analysis with libraries like `NumPy` and `pandas`.
 - Basics of machine learning with `scikit-learn`.
 - Exploring Python's role in automation and scripting.
 
