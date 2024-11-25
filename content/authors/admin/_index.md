@@ -63,15 +63,6 @@ education:
       - Courses included:
         - Advanced Natural Language Processing 
         - Human Computer Inteaction 
-  - area: MSc in Computer Science
-    institution: American International University-Bangladesh
-    date_start: 2017-05-01
-    date_end: 2018-12-31
-    summary: |2-
-      - Conducted research on ML and NLP applications, publishing papers in IEEE and Springer conferences/journals.
-      - Courses included:
-        - Advanced Natural Language Processing 
-        - Human Computer Inteaction 
   - area: BSc in Computer Science
     institution: American International University-Bangladesh
     date_start: 2013-01-01
