@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Adjunct Faculty || GenAI Practitioner
+role: GenAI Practitioner || Adjunct Faculty
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
