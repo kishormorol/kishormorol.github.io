@@ -55,7 +55,6 @@ interests:
 
 education:
   - area: MSc in Computer Science
-  - area: MSc in Computer Science
     institution: American International University-Bangladesh
     date_start: 2017-05-01
     date_end: 2018-12-31
